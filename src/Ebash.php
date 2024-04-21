@@ -1,8 +1,8 @@
 <?php
 
-namespace Ebash\Man;
+namespace  Wpdew\Ebash;
 
-class Man
+class Ebash
 {
     
 

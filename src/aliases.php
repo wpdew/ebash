@@ -1,7 +1,7 @@
 <?php
 
 $classMap = [
-    'Ebash\Man\Man' => 'EbashMan',
+    'Wpdew\Ebash\Ebash' => 'EbashMan',
 ];
 
 foreach ($classMap as $class => $alias) {
@@ -15,7 +15,7 @@ foreach ($classMap as $class => $alias) {
 
 
 if (\false) {
-    class EbashMan extends \Ebash\Man\Man
+    class EbashMan extends \Wpdew\Ebash\Ebash
     {
     }
 }

@@ -6,7 +6,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ebash\\Man\\": "src/"
+            "Wpdew\\Ebash\\": "src/"
         },
         "classmap": [
             "src/aliases.php"
