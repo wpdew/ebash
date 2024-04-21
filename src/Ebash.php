@@ -1,6 +1,6 @@
 <?php
 
-namespace Ebas\Man;
+namespace Ebash\Man;
 
 class Man
 {
@@ -8,7 +8,7 @@ class Man
 
     public function getName($name)
     {
-        return 'Hi from Ebas Class '.$name;
+        return 'Hi from Ebash Class '.$name;
     }
 
 	
