@@ -1,0 +1,26 @@
+{
+    "name": "wpdew/ebash",
+    "description": "My class for ebash",
+    "type": "library",
+    "homepage": "https://github.com/wpdew-com/ebash",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ebash\\Man\\": "src/"
+        },
+        "classmap": [
+            "src/aliases.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Aleks Moroz",
+            "email": "aleksmorro@gmail.com",
+            "homepage": "https://wpdew.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2||^8.1"
+    }
+}
