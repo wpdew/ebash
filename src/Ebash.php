@@ -83,14 +83,20 @@ class Ebash
 			'products'        => $products,
 			'bayer_name'      => $dataarray['name'],
 			'phone'           => $dataarray['phone'],
-			'comment'         => $dataarray['product_title'].' '.$dataarray['comment'],
-			'payment'         => '',
+			'comment'         => $dataarray['comment'],
+			'payment'         => $dataarray['payment'],
+			'delivery'        => $dataarray['delivery'],
+			'delivery_adress' => $dataarray['delivery_adress'],
 			'sender'          => $sender,
 			'utm_source'      => $_SESSION['utms']['utm_source'],
 			'utm_medium'      => $_SESSION['utms']['utm_medium'],
 			'utm_term'        => $_SESSION['utms']['utm_term'],
 			'utm_content'     => $_SESSION['utms']['utm_content'],
-			'utm_campaign'    => $_SESSION['utms']['utm_campaign']
+			'utm_campaign'    => $_SESSION['utms']['utm_campaign'],
+			'additional_1'    => $dataarray['additional_1'],
+			'additional_2'    => $dataarray['additional_2'],
+			'additional_3'    => $dataarray['additional_3'],
+			'additional_4'    => $dataarray['additional_4'] 
 		);
 
 		$curl = curl_init();
