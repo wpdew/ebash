@@ -1,1 +1,1 @@
-Ebash
+Ebash class
