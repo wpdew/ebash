@@ -54,7 +54,7 @@ class Ebash
 
 	//send sendToTelegram function
 	public function sendToTelegram($tgtoken, $tgchatid, $arrTg) {
-		$txt;
+		$txt = '';
 		foreach ($arrTg as $key => $value) {
 			$txt .= "<b>" . $key . "</b> " . $value . "%0A";
 		};
@@ -158,7 +158,7 @@ class Ebash
 	public function sendEmail($email, $arrTg){
 		$subject = "Заказ товара ";
 
-		$message;
+		$message = '';
 		$message .= "<b>Заказ товара</b><br/><hr/><br/>";
 		foreach ($arrTg as $key => $value) {
 			$message .= "<b>" . $key . "</b> " . $value . "<br/>";
